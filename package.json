@@ -1,0 +1,24 @@
+{
+  "name": "js_blog",
+  "version": "1.0.0",
+  "description": "js native blog",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mod production",
+    "dev": "webpack --mod development",
+    "start": "webpack-dev-server --mod development --open"
+  },
+  "keywords": [
+    "js",
+    "blog"
+  ],
+  "author": "Maksym Nikolaichuk",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.3.2",
+    "html-webpack-plugin": "^4.0.0-beta.11",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
